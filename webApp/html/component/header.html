@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+      }
+      #nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 92%;
+        height: 28px;
+        margin: auto;
+      }
+      .menu_btn {
+        background: none;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav">
+        <h1 class="logo">
+          <a href="#">
+            <img
+              src="http://www.innoiz.com/asset/images/header_logo.svg"
+              alt="이노이즈 로고"
+            />
+          </a>
+        </h1>
+        <button class="menu_btn">
+          <a href="#">
+            <img
+              src="http://www.innoiz.com/asset/images/menu_btn_m.svg"
+              alt="메뉴 버튼"
+            />
+          </a>
+        </button>
+      </nav>
+    </header>
+  </body>
+</html>
